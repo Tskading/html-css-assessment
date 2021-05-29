@@ -11,6 +11,8 @@ body {
 #badge {
     display: inline-block;
     margin: 0 auto;
+    max-width: 198px;
+    max-height: 239px;
 }
 
 #learnMore {
@@ -139,7 +141,7 @@ body {
     .degForm {
         display: flex;
         flex-direction: row;
-justify-content: center;    }
+        justify-content: center;    }
 
     #level {
         width: 50%;
@@ -154,4 +156,51 @@ justify-content: center;    }
     .row {
         display: flex;
     }
+}
+
+@media only screen and (min-width: 1480px) {
+
+    .jobLinks {
+        max-width: 250px;
+        justify-content:center;
+        padding: 1px;
+    }
+
+    #degFinder {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .sponsored {
+        margin-top: 20px;
+        justify-content: flex-start;
+        margin-right: 203px;
+        margin-top: 1px;
+    }
+
+    #level {
+        width: 450px;
+        margin-left: 20px;
+        margin-top: 3%;
+    }
+
+    .searchBtn {
+        width: 150px;
+        margin-left: 20px;
+        margin-top: 3%;    
+    }
+    
+    .titleSponsor {
+        margin-top: 0.6%;
+    }
+
+    /* .cards {
+        max-width: 541px;
+        margin-left: 11%;
+    }
+
+    .column {
+        justify-content: space-evenly;
+    } */
 }
