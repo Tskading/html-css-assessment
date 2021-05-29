@@ -1,0 +1,43 @@
+#header {
+    width: 100%;
+    text-align: center;
+}
+
+#badge {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#learnMore {
+    text-align: center;
+}
+
+.anchors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    /* flex-grow: 2; */
+}
+
+#degFinder {
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cards {
+    text-align: center;
+}
