@@ -28,6 +28,18 @@ body {
     text-align: center;
 }
 
+.searchBtn {
+    width: 90%;
+    margin-top: 1%;
+    border-radius: 50px;
+    border-width: 0;
+    height: 50px;
+    font-weight: bold;
+    font-size: 120%;
+    background: rgb(254, 211,28);
+    background: linear-gradient(0deg, rgba(254,211,28,1) 0%, rgba(237,190,36,1) 94%, rgba(214,173,26,1) 100%);
+}
+
 #topSkills {
     text-align: center;
     padding-top: 3%;
