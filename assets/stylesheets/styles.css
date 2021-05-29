@@ -4,8 +4,8 @@ body {
 }
 
 #header {
-    width: 100%;
     text-align: center;
+    display: block;
 }
 
 #badge {
@@ -15,13 +15,24 @@ body {
 
 #learnMore {
     text-align: center;
+    font-size: large;
 }
 
 .anchors {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
-    margin: auto;
+    margin: 2%;
+}
+
+.jobLinks {
+    flex-basis: 32%;
+    text-align: center;
+    font-weight: bold;
+    margin: 1%;
+    padding: 3.5%;
+    max-width: 89px;
+    color: #000026;
 }
 
 #degFinder {
