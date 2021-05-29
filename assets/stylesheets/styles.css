@@ -28,9 +28,32 @@ body {
     text-align: center;
 }
 
+.degreeTitle {
+    margin-bottom: 0;
+    font-size: larger;
+}
+
+.sponsored {
+    margin-top: 0px;
+    font-size: smaller;
+    font-weight: 100;
+}
+
+#level {
+    width: 90%;
+    height: 50px;
+    font-size: 120%;
+    font-weight: 100;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: lightgray;
+    margin-bottom: 2%;
+}
+
 .searchBtn {
     width: 90%;
     margin-top: 1%;
+    margin-bottom: 7%;
     border-radius: 50px;
     border-width: 0;
     height: 50px;
