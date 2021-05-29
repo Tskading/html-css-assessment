@@ -128,3 +128,30 @@ body {
 .background {
     background-color: rgb(239, 249, 253);
 }
+
+@media only screen and (min-width: 768px){
+    
+    .jobLinks {
+        max-width: 196px;
+        padding: 1%;
+    }
+
+    .degForm {
+        display: flex;
+        flex-direction: row;
+justify-content: center;    }
+
+    #level {
+        width: 50%;
+    }
+    
+    .searchBtn {
+        width: 20%;
+        margin-left: 20px;
+        margin-top: 0px;    
+    }
+
+    .row {
+        display: flex;
+    }
+}
